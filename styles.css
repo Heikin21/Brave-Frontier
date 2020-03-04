@@ -1,48 +1,48 @@
 body {
-	background-image: url(images/bfsf19.jpg);
+	background-image: url(BFImages/bfsf19.jpg);
 }
 #background {
 	width: 700px;
-	height: 450px;
-	background-color: #79c6ed;
+	height: 500px;
+	background-color: #ffffff;
 	margin:auto;
 	margin-top: 110px;
 }
-#Selector {
-	width: 300px;
+#SelectorTab {
+	width: 700px;
 	height: 50px;
 	background-color:#1c4a61;
 	color: #ffffff;
 	size: 10px;
 	text-align: center;
 	float: left;
+	line-height: 50px;
 }
-#Selector:hover {
+#SelectorTab:hover {
 	background-color:#e6ebff;
 	color: #000000;
 	cursor:pointer;
 }
-#Selector:active {
+#SelectorTab:active {
 	background-color:#e6ebff;
 	color: #000000;
 	transform: translateY(4px);
 }
-#about {
+
+.Elements {
+	float: left;
+	width: 95px;
+	height: 95px;
+	padding: 10px;
+}
+#imageCaptions {
+	font-size: 30px;
+	word-spacing: 40px;
+	text-indent: 30px;
+}
+.Hero {
 	width: 200px;
-	height: 50px;
-	background-color:#1c4a61;
-	color: #ffffff;
-	size: 10px;
-	text-align: center;
-	float: left;
-}
-#about:hover {
-	background-color:#e6ebff;
-	color: #000000;
-	cursor:pointer;
-}
-#about:active {
-	background-color:#e6ebff;
-	color: #000000;
-	transform: translateY(4px);
+	height: 200px;
+	background-color: #000000;
+	margin: auto;
 }
