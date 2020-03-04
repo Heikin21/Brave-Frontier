@@ -34,4 +34,11 @@ body {
 	height: 120px;
 	padding: 5px;
 	float: left;
+	visibility: hidden;
+}
+#NameTab {
+	width: 200px;
+	height: 80px;
+	float: left;
+	margin-left: 300px;
 }
